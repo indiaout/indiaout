@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    /* Bangla */
+    font-family: BalooDa2;
+    font-weight: normal;
+    src: url('./fonts/BalooDa2.ttf');
+  }
+  html {
+    font-family: BalooDa2, system-ui, sans-serif;
+  }
+}
